@@ -1,0 +1,1776 @@
+[
+	{
+		"name": "CT: Item 1",
+		"region": "City",
+		"category": ["City Locations"],
+		"requires": []
+	},
+	{
+		"name": "CT: Item 2",
+		"region": "City",
+		"category": ["City Locations"],
+		"requires": []
+	},
+	{
+		"name": "CT: Item 3",
+		"region": "City",
+		"category": ["City Locations"],
+		"requires": []
+	},
+	{
+		"name": "CT: Item 4",
+		"region": "City",
+		"category": ["City Locations"],
+		"requires": []
+	},
+	{
+		"name": "CT: Item 5",
+		"region": "City",
+		"category": ["City Locations", "Ray"],
+		"requires": []
+	},
+	{
+		"name": "CT: Item 6 (Dowsing)",
+		"region": "City",
+		"category": ["City Locations", "3DS"],
+		"requires": []
+	},
+	{
+		"name": "Starting Weapon",
+		"region": "City",
+		"category": ["Beginner Items"],
+		"requires": [],
+		"place_item": ["Normal Bullets", "Fire Bullets", "Crystal Bullets", "Spark Bullets", "Drill Bullets", "Missile Bullets", "Gyro Bullets", "Blade Bullets", "Tracer Bullets", "Dart Bullets", "Angel's Arrow", "Arrow Shot", "A Flash of Azure", "B-Wulf", "Claw Shot", "Demon Shot", "Pheromone Shot"]
+	},
+	{
+		"name": "Starting Customization Points",
+		"region": "City",
+		"category": ["Beginner Items"],
+		"requires": [],
+		"place_item": ["CP Up (+1000)"]
+	},
+	{
+		"name": "CT: Clear 1",
+		"region": "City",
+		"category": ["City Locations"],
+		"requires": [],
+		"place_item_category": ["Access Codes"]
+	},
+	{
+		"name": "CT: Clear 2",
+		"region": "City",
+		"category": ["City Locations"],
+		"requires": []
+	},
+	{
+		"name": "CT: Clear 3",
+		"region": "City",
+		"category": ["City Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"region": "City",
+		"name": "CT: Clear Flag",
+		"category": ["City Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "CT: C Rank",
+		"region": "City",
+		"category": ["City Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CT: B Rank",
+		"region": "City",
+		"category": ["City Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CT: A Rank",
+		"region": "City",
+		"category": ["City Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CT: S Rank",
+		"region": "City",
+		"category": ["City Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CT: Food 1 (Strawberry)",
+		"region": "City",
+		"category": ["City Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CT: Food 2 (Apple)",
+		"region": "City",
+		"category": ["City Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CT: Food 3 (Candy)",
+		"region": "City",
+		"category": ["City Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CT: Food 4 (Grapes)",
+		"region": "City",
+		"category": ["City Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CT: Food 5 (Peach)",
+		"region": "City",
+		"category": ["City Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Item 1",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": []
+	},
+	{
+		"name": "OP: Item 2",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": []
+	},
+	{
+		"name": "OP: Item 3",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": []
+	},
+	{
+		"name": "OP: Item 4",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": []
+	},
+	{
+		"name": "OP: Item 5",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": "|Air Action|"
+	},
+	{
+		"name": "OP: Item 6",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "OP6"],
+		"requires": []
+	},
+	{
+		"name": "OP: Clear 1",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": []
+	},
+	{
+		"name": "OP: Clear 2",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": []
+	},
+	{
+		"name": "OP: Clear 3",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "OP: Clear Flag",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"region": "Oil Platform",
+		"name": "OP: C Rank",
+		"category": ["Oil Platform Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "OP: B Rank",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "OP: A Rank",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "OP: S Rank",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "OP: Food 1 (Orange)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 2 (Candy)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 3 (Melon)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 4 (Strawberry)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 5 (Cherries)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 6 (Grapes)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 7 (Apple)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 8 (Lollipop)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "OP: Food 9 (Banana)",
+		"region": "Oil Platform",
+		"category": ["Oil Platform Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Item 1",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Right Item 2 (Above Ceiling)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Left Item 2",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": "|Heat Element|"
+	},
+	{
+		"name": "WWB: Left Item 3",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Left Item 4",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": "|Wave| OR |Diagonal Fire| OR |Lola Diagonal Formation| OR |Piercing| OR |Spread| OR |Diffusion| OR |Shield| OR |Return| OR |Bounce| OR |Iolite| OR |Multi-Universe| OR |Indigo Destiny| OR |Vast Circle| OR |Cluster Shot| OR |Claw Shot| OR |Dart Bullets| OR |Spear Drop| OR |Lola Vanguard|"
+	},
+	{
+		"name": "WWB: Clear 1",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Clear 2",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Clear 3",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Clear Flag",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "WWB: C Rank",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "WWB: B Rank",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "WWB: A Rank",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "WWB: S Rank",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "WWB: Food 1 (Grapes)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Food 2 (Cherries)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Food 3 (Watermelon)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Food 4 (Shortcake)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Food 5 (Orange)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Food 6 (Ice Cream)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "WWB: Food 7 (Banana)",
+		"region": "Water Works Bureau",
+		"category": ["Waterworks Bureau Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Item 1",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Item 2",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Item 3",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Item 4",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Item 5",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Item 6",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Clear 1",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Clear 2",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": []
+	},
+	{
+		"name": "PP: Clear 3",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "PP: Clear Flag",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "PP: C Rank",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "PP: B Rank",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "PP: A Rank",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "PP: S Rank",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "PP: Left Food 1 (Grapes)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Right Food 1 (Apple)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Food 2 (Orange)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Food 3 (Silhouette Banana)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Food 4 (Dark Room Strawberry)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Food 5 (Dark Room Ice Cream)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Left Food 6 (Dark Room Hamburger)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"region": "Power Plant",
+		"name": "PP: Right Food 6 (Dark Room Lollipop)",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Right Food 7 (Candy)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "PP: Right Food 8 (Cherries)",
+		"region": "Power Plant",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"region": "Power Plant",
+		"name": "PP: Right Food 9 (Shortcake)",
+		"category": ["Power Plant Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"region": "Mine",
+		"name": "MN: Item 1",
+		"category": ["Mine Locations"],
+		"requires": "|Impact Element| AND (|Reflect| OR |Dart Bullets| OR |Claw Shot| OR |Wave| OR |Diagonal Fire| OR |Lola Diagonal Formation| OR |Piercing| OR |Spread| OR |Diffusion| OR |Shield| OR |Return| OR |Bounce| OR |A Flash of Azure| OR |Iolite| OR |Multi-Universe| OR |Indigo Destiny| OR |Vast Circle| OR |Cluster Shot| OR (|Air Action| AND |Pheromone Shot|) OR |Spear Drop| OR |Lola Vanguard|)"
+	},
+	{
+		"region": "Mine",
+		"name": "MN: Item 2",
+		"category": ["Mine Locations"],
+		"requires": []
+	},
+	{
+		"name": "MN: Item 3",
+		"region": "Mine",
+		"category": ["Mine Locations"],
+		"requires": []
+	},
+	{
+		"name": "MN: Item 4",
+		"region": "Mine",
+		"category": ["Mine Locations"],
+		"requires": []
+	},
+	{
+		"name": "MN: Item 5",
+		"region": "Mine",
+		"category": ["Mine Locations"],
+		"requires": []
+	},
+	{
+		"name": "MN: Clear 1",
+		"region": "Mine",
+		"category": ["Mine Locations"],
+		"requires": []
+	},
+	{
+		"name": "MN: Clear 2",
+		"region": "Mine",
+		"category": ["Mine Locations"],
+		"requires": []
+	},
+	{
+		"name": "MN: Clear 3",
+		"region": "Mine",
+		"category": ["Mine Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "MN: Clear Flag",
+		"region": "Mine",
+		"category": ["Mine Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "MN: C Rank",
+		"region": "Mine",
+		"category": ["Mine Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MN: B Rank",
+		"region": "Mine",
+		"category": ["Mine Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MN: A Rank",
+		"region": "Mine",
+		"category": ["Mine Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MN: S Rank",
+		"region": "Mine",
+		"category": ["Mine Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MN: Food 1 (Peach)",
+		"region": "Mine",
+		"category": ["Mine Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MN: Food 2 (Orange)",
+		"region": "Mine",
+		"category": ["Mine Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MN: Food 3 (Apple)",
+		"region": "Mine",
+		"category": ["Mine Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MN: Food 4 (Pizza)",
+		"region": "Mine",
+		"category": ["Mine Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MN: Food 5 (Melon)",
+		"region": "Mine",
+		"category": ["Mine Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MN: Food 6 (Candy)",
+		"region": "Mine",
+		"category": ["Mine Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MB: Item 1",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": []
+	},
+	{
+		"name": "MB: Item 2",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": []
+	},
+	{
+		"name": "MB: Item 3",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": []
+	},
+	{
+		"name": "MB: Item 4",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": []
+	},
+	{
+		"name": "MB: Item 5",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": []
+	},
+	{
+		"name": "MB: Clear 1",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": []
+	},
+	{
+		"name": "MB: Clear 2",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": []
+	},
+	{
+		"name": "MB: Clear 3",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "MB: Clear Flag",
+		"region": "Military Base",
+		"category": ["Military Base Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "MB: C Rank",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MB: B Rank",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MB: A Rank",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MB: S Rank",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "MB: Food 1 (Hamburger)",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MB: Food 2 (Watermelon)",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MB: Food 3 (Cherries)",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MB: Food 4 (Orange)",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MB: Food 5 (Grapes)",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "MB: Food 6 (Peach)",
+		"region": "Military Base",
+		"category": ["Military Base Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Item 1",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": []
+	},
+	{
+		"name": "RT: Item 2",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": []
+	},
+	{
+		"name": "RT: Item 3",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": []
+	},
+	{
+		"name": "RT: Item 4",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": []
+	},
+	{
+		"name": "RT: Item 5",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": []
+	},
+	{
+		"name": "RT: Item 6 (Reincarnation)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Joule"],
+		"requires": []
+	},
+	{
+		"name": "RT: Clear 1",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": []
+	},
+	{
+		"name": "RT: Clear 2",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": []
+	},
+	{
+		"name": "RT: Clear 3",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "RT: Clear Flag",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "RT: C Rank",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "RT: B Rank",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "RT: A Rank",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "RT: S Rank",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "RT: Food 1 (Watermelon)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 2 (Strawberry)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 3 (Peach)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 4 (Apple)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 5 (Cherries)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 6 (Orange)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 7 (Lollipop)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 8 (Banana)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 9 (Ice Cream)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "RT: Food 10 (Grapes)",
+		"region": "Radio Tower",
+		"category": ["Radio Tower Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Item 1",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": []
+	},
+	{
+		"name": "HW: Item 2",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": []
+	},
+	{
+		"name": "HW: Item 3",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": []
+	},
+	{
+		"name": "HW: Item 4",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": []
+	},
+	{
+		"name": "HW: Item 5",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": []
+	},
+	{
+		"name": "HW: Item 6",
+		"region": "Highway",
+		"category": ["Highway Locations", "Joule"],
+		"requires": []
+	},
+	{
+		"name": "HW: Clear 1",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": []
+	},
+	{
+		"name": "HW: Clear 2",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": []
+	},
+	{
+		"name": "HW: Clear 3",
+		"region": "Highway",
+		"category": ["Highway Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "HW: Clear Flag",
+		"region": "Highway",
+		"category": ["Highway Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "HW: C Rank",
+		"region": "Highway",
+		"category": ["Highway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "HW: B Rank",
+		"region": "Highway",
+		"category": ["Highway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "HW: A Rank",
+		"region": "Highway",
+		"category": ["Highway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "HW: S Rank",
+		"region": "Highway",
+		"category": ["Highway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "HW: Food 1 (Strawberry)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 2 (Peach)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 3 (Cherries)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 4 (Hamburger)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 5 (Banana)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 6 (Apple)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 7 (Shortcake)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 8 (Orange)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 9 (Pizza)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "HW: Food 10 (Grapes)",
+		"region": "Highway",
+		"category": ["Highway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CB: Item 1",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": []
+	},
+	{
+		"name": "CB: Item 2",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": []
+	},
+	{
+		"name": "CB: Item 3",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": []
+	},
+	{
+		"name": "CB: Item 4",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": []
+	},
+	{
+		"name": "CB: Item 5",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": []
+	},
+	{
+		"name": "CB: Clear 1",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": []
+	},
+	{
+		"name": "CB: Clear 2",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": []
+	},
+	{
+		"name": "CB: Clear 3",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "CB: Clear Flag",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "CB: C Rank",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CB: B Rank",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CB: A Rank",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CB: S Rank",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CB: Food 1 (Strawberry)",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CB: Food 2 (Apple)",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CB: Food 3 (Melon)",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CB: Food 4 (Grapes)",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CB: Food 5 (ShoCBcake)",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CB: Food 6 (Meat)",
+		"region": "Capitol Building",
+		"category": ["Capitol Building Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Item 1",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": []
+	},
+	{
+		"name": "GW: Item 2",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": []
+	},
+	{
+		"name": "GW: Item 3",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": []
+	},
+	{
+		"name": "GW: Item 4",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": []
+	},
+	{
+		"name": "GW: Item 5",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": []
+	},
+	{
+		"name": "GW: Item 6",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "GW6"],
+		"requires": []
+	},
+	{
+		"name": "GW: Clear 1",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": []
+	},
+	{
+		"name": "GW: Clear 2",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": []
+	},
+	{
+		"name": "GW: Clear 3",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "GW: Clear Flag",
+		"region": "Gateway",
+		"category": ["Gateway Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "GW: C Rank",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "GW: B Rank",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "GW: A Rank",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "GW: S Rank",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "GW: Food 1 (Orange)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Food 2 (Apple)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Left Food 3 (Watermelon)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Left Food 4 (Banana)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Right Food 3 (Lollipop)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Right Food 4 (Candy)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Right Food 5 (Ice Cream)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Right Food 6 (Shortcake)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Food 7 (Strawberry)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Food 8 (Peach)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "GW: Food 9 (Meat)",
+		"region": "Gateway",
+		"category": ["Gateway Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Item 1",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Item 2",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Item 3",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Item 4",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Item 5",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Item 6",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Clear 1",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Clear 2",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": []
+	},
+	{
+		"name": "SS: Clear 3",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "SS: Clear Flag",
+		"region": "Subspace",
+		"category": ["Subspace Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "SS: C Rank",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "SS: B Rank",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "SS: A Rank",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "SS: S Rank",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "SS: Food 1 (Orange)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Food 2 (Cherries)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Food 3 (Watermelon)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Food 4 (Lollipop)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Food 5 (Melon)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Food 6 (Grapes)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Food 7 (Banana)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "SS: Food 8 (Pizza)",
+		"region": "Subspace",
+		"category": ["Subspace Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Item 1",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Item 2",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Item 3",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Item 4",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Item 5",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Item 6",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Item 7",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Clear 1",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Clear 2",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": []
+	},
+	{
+		"name": "DT: Clear 3",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Clear3"],
+		"requires": []
+	},
+	{
+		"name": "DT: Clear Flag",
+		"region": "Distopia",
+		"category": ["Distopia Locations"],
+		"requires": [],
+		"place_item": ["Clear Flag"]
+	},
+	{
+		"name": "DT: C Rank",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "DT: B Rank",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "DT: A Rank",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "DT: S Rank",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "DT: Food 1 (Hamburger)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 2 (Strawberry)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 3 (Banana)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 4 (Peach)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 5 (Shortcake)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 6 (Ice Cream)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 7 (Dark Room Apple)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 8 (Dark Room Grape)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 9 (Cherries)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "DT: Food 10 (Meat)",
+		"region": "Distopia",
+		"category": ["Distopia Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Item 1",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations"],
+		"requires": []
+	},
+	{
+		"name": "CC: Pyrogen Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Cryosphere Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Dynatron Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Seismic Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Battalion Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Aviator Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Brandish Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Countershade Refight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Clone Fight",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"requires": []
+	},
+	{
+		"name": "CC: Clear 1",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations"],
+		"requires": []
+	},
+	{
+		"name": "CC: Clear 2",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations"],
+		"requires": []
+	},
+	{
+		"name": "CC: Clear Flag",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations"],
+		"requires": [],
+        "victory": true
+	},
+	{
+		"name": "CC: C Rank",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CC: B Rank",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CC: A Rank",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CC: S Rank",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
+		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+	},
+	{
+		"name": "CC: Food 1 (Watermelon)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 2 (Melon)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 3 (Shortcake)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 4 (Ice Cream)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 5 (Meat)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 6 (Pizza)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 7 (Apple)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 8 (Grapes)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 9 (Banana)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	},
+	{
+		"name": "CC: Food 10 (Hamburger)",
+		"region": "Cyberspace Colosseum",
+		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"requires": []
+	}
+]

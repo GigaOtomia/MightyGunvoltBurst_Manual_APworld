@@ -1,0 +1,135 @@
+{
+	"Beginner Items": {},
+    "City Locations": {},
+	"Oil Platform Locations": {},
+	"Waterworks Bureau Locations": {},
+	"Power Plant Locations": {},
+	"Mine Locations": {},
+	"Military Base Locations": {},
+	"Radio Tower Locations": {},
+	"Highway Locations": {},
+	"Capitol Building Locations": {},
+	"Gateway Locations": {},
+	"Subspace Locations": {},
+	"Distopia Locations": {},
+	"Cyberspace Colosseum Locations": {},
+    "Access Codes": {},
+	"Weapons": {},
+	"Shot Modifiers": {},
+	"Passive Modifiers": {},
+	"Unique Abilities": {},
+	"Elements": {},
+    "Foodsanity": {
+        "yaml_option": ["fs"]
+    },
+    "Foodsanity Individual": {
+        "yaml_option": ["fsi"]
+    },
+    "Foodsanity Grouped": {
+        "yaml_option": ["fsg"]
+    },
+    "Ranksanity": {
+        "yaml_option": ["ranksanity"]
+    },
+    "3DS": {
+        "yaml_option": ["Console"]
+    },
+    "Beck": {
+        "yaml_option": ["UseBeck"],
+        "hidden": true
+    },
+    "Gunvolt": {
+        "yaml_option": ["UseGunvolt"],
+        "hidden": true
+    },
+    "Ekoro": {
+        "yaml_option": ["UseEkoro"],
+        "hidden": true
+    },
+    "Call": {
+        "yaml_option": ["UseCall"],
+        "hidden": true
+    },
+    "Joule": {
+        "yaml_option": ["UseJoule"],
+        "hidden": true
+    },
+    "Ray": {
+        "yaml_option": ["UseRay"],
+        "hidden": true
+    },
+    "Copen": {
+        "yaml_option": ["UseCopen"],
+        "hidden": true
+    },
+    "Kurona": {
+        "yaml_option": ["UseKurona"],
+        "hidden": true
+    },
+    "Tenzou": {
+        "yaml_option": ["UseTenzou"],
+        "hidden": true
+    },
+    "Clear3": {
+        "yaml_option": ["Clear3"],
+        "hidden": true,
+		"_comment": "Beck or Gunvolt"
+    },
+    "GW6": {
+        "yaml_option": ["GW6"], 
+        "hidden": true,
+		"_comment": "Beck or Ekoro or Joule or Copen or Tenzou"
+    },
+    "OP6": {
+        "yaml_option": ["OP6"],
+        "hidden": true,
+		"_comment": "Beck or Ekoro or Copen or Kurona"
+    },
+    "notKurona": {
+        "yaml_option": ["notKurona"],
+        "hidden": true
+    },
+    "notTenzou": {
+        "yaml_option": ["notTenzou"],
+        "hidden": true
+    },
+    "Shield": {
+        "yaml_option": ["Shield"], 
+        "hidden": true,
+		"_comment": "Beck or Ekoro or Joule or Copen or Kurona"
+    },
+    "Bounce": {
+        "yaml_option": ["Bounce"], 
+        "hidden": true,
+		"_comment": "Beck or Ekoro or Joule or Ray"
+    },
+    "Crawler": {
+        "yaml_option": ["Crawler"], 
+        "hidden": true,
+		"_comment": "not Ekoro nor Call"
+    },
+    "Return": {
+        "yaml_option": ["Return"], 
+        "hidden": true,
+		"_comment": "not Gunvolt nor Kurona nor Tenzou"
+    },
+    "Cluster": {
+        "yaml_option": ["Cluster"], 
+        "hidden": true,
+		"_comment": "not Ekoro nor Tenzou"
+    },
+    "Diagonal": {
+        "yaml_option": ["Diagonal"], 
+        "hidden": true,
+		"_comment": "not Gunvolt nor Copen"
+    },
+    "AirAct": {
+        "yaml_option": ["AirAct"], 
+        "hidden": true,
+		"_comment": "not Joule nor Call"
+    },
+    "Refights": {
+        "yaml_option": ["Refights"], 
+        "hidden": true
+    }
+}

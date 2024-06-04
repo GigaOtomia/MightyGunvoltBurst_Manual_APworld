@@ -1,0 +1,55 @@
+{
+	"City": 	{
+		"starting": true,
+		"connects_to": ["Oil Platform","Water Works Bureau","Power Plant","Mine","Military Base","Radio Tower","Highway","Capitol Building"],
+		"requires": []
+	},
+	"Oil Platform": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Oil Platform Access Codes|)"
+	},
+	"Water Works Bureau": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Water Works Access Codes|)"
+	},
+	"Power Plant": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Power Plant Access Codes|)"
+	},
+	"Mine": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Mine Access Codes|)"
+	},
+	"Military Base": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Military Base Access Codes|)"
+	},
+	"Radio Tower": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Radio Tower Access Codes|)"
+	},
+	"Highway": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Highway Access Codes|)"
+	},
+	"Capitol Building": 	{
+		"connects_to": ["Gateway"],
+		"requires": "(|Clear Flag:1| AND |Capitol Building Access Codes|)"
+	},
+	"Gateway": 	{
+		"connects_to": ["Subspace"],
+		"requires": "(|Clear Flag:9|)"
+	},
+	"Subspace": 	{
+		"connects_to": ["Distopia"],
+		"requires": "(|Clear Flag:10|)"
+	},
+	"Distopia": 	{
+		"connects_to": ["Cyberspace Colosseum"],
+		"requires": "(|Clear Flag:11|)"
+	},
+	"Cyberspace Colosseum": 	{
+		"connects_to": [],
+		"requires": "(|Clear Flag:12|)"
+}
+}
