@@ -1,1776 +1,2747 @@
 [
 	{
-		"name": "CT: Item 1",
+		"name": "CT Foodsanity 1: Strawberry",
 		"region": "City",
-		"category": ["City Locations"],
+		"category": [
+			"City",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CT: Item 2",
+		"name": "CT: Dowsing",
 		"region": "City",
-		"category": ["City Locations"],
+		"category": [
+			"City",
+			"Dowsing"
+		],
+		"requires": "{YamlEnabled(Dowsing)}"
+	},
+	{
+		"name": "CT Foodsanity 2: Apple",
+		"region": "City",
+		"category": [
+			"City",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CT: Item 3",
 		"region": "City",
-		"category": ["City Locations"],
+		"name": "CT1: Boxes behind wall",
+		"category": [
+			"City"
+		],
 		"requires": []
 	},
 	{
-		"name": "CT: Item 4",
+		"name": "CT Foodsanity 3: Candy",
 		"region": "City",
-		"category": ["City Locations"],
+		"category": [
+			"City",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CT: Item 5",
+		"name": "CT2: Boxes by overhang",
 		"region": "City",
-		"category": ["City Locations", "Ray"],
+		"category": [
+			"City"
+		],
 		"requires": []
 	},
 	{
-		"name": "CT: Item 6 (Dowsing)",
+		"name": "CT Foodsanity 4: Grapes",
 		"region": "City",
-		"category": ["City Locations", "3DS"],
+		"category": [
+			"City",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "Starting Weapon",
+		"name": "CT3: Breakable wall after invincibility",
 		"region": "City",
-		"category": ["Beginner Items"],
+		"category": [
+			"City"
+		],
+		"requires": []
+	},
+	{
+		"region": "City",
+		"name": "CT3b: Pixel Sticker (Ray Normal Shot)",
+		"category": [
+			"City"
+		],
+		"requires": "{YamlEnabled(UseRay)}"
+	},
+	{
+		"name": "CT Foodsanity 5: Peach",
+		"region": "City",
+		"category": [
+			"City",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"region": "City",
+		"name": "CT4: Breakable wall above boss door",
+		"category": [
+			"City"
+		],
+		"requires": []
+	},
+	{
+		"name": "CT: Clear 1 (300 CP)",
+		"region": "City",
+		"category": [
+			"City"
+		],
 		"requires": [],
-		"place_item": ["Normal Bullets", "Fire Bullets", "Crystal Bullets", "Spark Bullets", "Drill Bullets", "Missile Bullets", "Gyro Bullets", "Blade Bullets", "Tracer Bullets", "Dart Bullets", "Angel's Arrow", "Arrow Shot", "A Flash of Azure", "B-Wulf", "Claw Shot", "Demon Shot", "Pheromone Shot"]
+		"place_item": "|Clear Flag|"
 	},
 	{
-		"name": "Starting Customization Points",
+		"name": "CT: Clear 2 (Rare Item)",
 		"region": "City",
-		"category": ["Beginner Items"],
-		"requires": [],
-		"place_item": ["CP Up (+1000)"]
-	},
-	{
-		"name": "CT: Clear 1",
-		"region": "City",
-		"category": ["City Locations"],
-		"requires": [],
-		"place_item_category": ["Access Codes"]
-	},
-	{
-		"name": "CT: Clear 2",
-		"region": "City",
-		"category": ["City Locations"],
+		"category": [
+			"City"
+		],
 		"requires": []
 	},
 	{
-		"name": "CT: Clear 3",
+		"name": "CT: Clear 3 (Pixel Sticker)",
 		"region": "City",
-		"category": ["City Locations", "Clear3"],
-		"requires": []
+		"category": [
+			"City"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
 	},
 	{
+		"name": "CT: D Rank",
 		"region": "City",
-		"name": "CT: Clear Flag",
-		"category": ["City Locations"],
-		"requires": [],
-		"place_item": ["Clear Flag"]
+		"category": [
+			"City"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CT: C Rank",
 		"region": "City",
-		"category": ["City Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"City"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CT: B Rank",
 		"region": "City",
-		"category": ["City Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"City"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CT: A Rank",
 		"region": "City",
-		"category": ["City Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"City"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CT: S Rank",
 		"region": "City",
-		"category": ["City Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"City"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "CT: Food 1 (Strawberry)",
-		"region": "City",
-		"category": ["City Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CT: Food 2 (Apple)",
-		"region": "City",
-		"category": ["City Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CT: Food 3 (Candy)",
-		"region": "City",
-		"category": ["City Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CT: Food 4 (Grapes)",
-		"region": "City",
-		"category": ["City Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CT: Food 5 (Peach)",
-		"region": "City",
-		"category": ["City Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Item 1",
+		"name": "OP Foodsanity 1: Orange",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Item 2",
+		"name": "OP Foodsanity 2: Candy",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Item 3",
+		"name": "OP1: Breakable wall behind monkey Xel",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
+		"category": [
+			"Oil Platform"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Item 4",
+		"name": "OP Foodsanity 3: Melon",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Item 5",
+		"name": "OP2: Breakable wall atop magnet shaft",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
-		"requires": "|Air Action|"
-	},
-	{
-		"name": "OP: Item 6",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "OP6"],
+		"category": [
+			"Oil Platform"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Clear 1",
+		"name": "OP2b: Breakable wall atop magnet shaft (Bonus)",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
+		"category": [
+			"Oil Platform"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Clear 2",
+		"name": "OP Foodsanity 4: Cherries",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Clear 3",
+		"name": "OP Foodsanity 5: Strawberry",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Clear3"],
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "OP: Clear Flag",
+		"name": "OP Foodsanity 6: Grapes",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations"],
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP3: Dunked in the water",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP4: Breakable wall in rising water section",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP4b: Breakable wall in rising water section (Bonus)",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP5: Breakable wall above ladder",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": "|Air Action| or |Air Action: Mid-Air Dash| or {YamlEnabled(UseJoule)}"
+	},
+	{
+		"name": "OP Foodsanity 7: Apple",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP Foodsanity 8: Lollipop",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP Foodsanity 9: Banana",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP: Clear 1 (300 CP)",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
 	},
 	{
+		"name": "OP: Clear 2 (Rare Item)",
 		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": []
+	},
+	{
+		"name": "OP: Clear 3 (Pixel Sticker)",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "OP: D Rank",
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
+	},
+	{
 		"name": "OP: C Rank",
-		"category": ["Oil Platform Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"region": "Oil Platform",
+		"category": [
+			"Oil Platform"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "OP: B Rank",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Oil Platform"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "OP: A Rank",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Oil Platform"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "OP: S Rank",
 		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Oil Platform"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "OP: Food 1 (Orange)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 2 (Candy)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 3 (Melon)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 4 (Strawberry)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 5 (Cherries)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 6 (Grapes)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 7 (Apple)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 8 (Lollipop)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "OP: Food 9 (Banana)",
-		"region": "Oil Platform",
-		"category": ["Oil Platform Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "WWB: Item 1",
+		"name": "WWB Foodsanity 1: Grapes",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
+		"category": [
+			"Water Works Bureau",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "WWB: Right Item 2 (Above Ceiling)",
+		"name": "WWB Foodsanity 2: Cherries",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
+		"category": [
+			"Water Works Bureau",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "WWB: Left Item 2",
+		"name": "WWB1: Visible behind false wall",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": []
+	},
+	{
+		"name": "WWB Foodsanity 3: Watermelon",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "WWB2: Above shortcut ceiling (note)",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": []
+	},
+	{
+		"name": "WWB Foodsanity 4: Shortcake",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "WWB3: Breakable wall with item in frozen block",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau"
+		],
 		"requires": "|Heat Element|"
 	},
 	{
-		"name": "WWB: Left Item 3",
+		"name": "WWB Foodsanity 5: Orange",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
+		"category": [
+			"Water Works Bureau",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "WWB: Left Item 4",
+		"name": "WWB4: Sitting above 1x1 ice cubes",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
-		"requires": "|Wave| OR |Diagonal Fire| OR |Lola Diagonal Formation| OR |Piercing| OR |Spread| OR |Diffusion| OR |Shield| OR |Return| OR |Bounce| OR |Iolite| OR |Multi-Universe| OR |Indigo Destiny| OR |Vast Circle| OR |Cluster Shot| OR |Claw Shot| OR |Dart Bullets| OR |Spear Drop| OR |Lola Vanguard|"
-	},
-	{
-		"name": "WWB: Clear 1",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
+		"category": [
+			"Water Works Bureau"
+		],
 		"requires": []
 	},
 	{
-		"name": "WWB: Clear 2",
+		"name": "WWB5: Embedded in the floor",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": "(|Spread Shot| and |@Spread Weapons:1|) or |Cluster Shot| or |Shield Shot| or (|Wave Trajectory| and |@Wave Weapons: 1|) or |Return Trajectory| or |Bounce Trajectory| or |Piercing Bullets| or |Explosion Dissipation| or |Diffusion Dissipation| or |Diagonal Fire|"
+	},
+	{
+		"name": "WWB Foodsanity 6: Ice Cream",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "WWB: Clear 3",
+		"name": "WWB Foodsanity 7: Banana",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Clear3"],
+		"category": [
+			"Water Works Bureau",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "WWB: Clear Flag",
+		"name": "WWB: Clear 1 (300 CP)",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations"],
+		"category": [
+			"Water Works Bureau"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "WWB: Clear 2 (Rare Item)",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": []
+	},
+	{
+		"name": "WWB: Clear 3 (Pixel Sticker)",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "WWB: D Rank",
+		"region": "Water Works Bureau",
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "WWB: C Rank",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "WWB: B Rank",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "WWB: A Rank",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "WWB: S Rank",
 		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Water Works Bureau"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "WWB: Food 1 (Grapes)",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "WWB: Food 2 (Cherries)",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "WWB: Food 3 (Watermelon)",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "WWB: Food 4 (Shortcake)",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "WWB: Food 5 (Orange)",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "WWB: Food 6 (Ice Cream)",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "WWB: Food 7 (Banana)",
-		"region": "Water Works Bureau",
-		"category": ["Waterworks Bureau Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Item 1",
+		"name": "PP Foodsanity 1a: Grapes (Left path)",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Item 2",
+		"name": "PP Foodsanity 1b: Apple (Right path)",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Item 3",
+		"name": "PP1: Burst-disabled enemy behind secret tunnel",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Item 4",
+		"name": "PP Foodsanity 2: Orange",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Item 5",
+		"name": "PP2: Breakable wall in first silhouette room",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Item 6",
+		"name": "PP Foodsanity 3: Banana",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Clear 1",
+		"name": "PP Foodsanity 4: Strawberry",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Clear 2",
+		"name": "PP3: Ledge in second spotlight room",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Clear 3",
+		"name": "PP Foodsanity 5: Ice Cream",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Clear3"],
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "PP: Clear Flag",
+		"name": "PP4: Breakable wall in third spotlight room",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations"],
+		"category": [
+			"Power Plant"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP5: Breakable wall in fourth spotlight room",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP Foodsanity 6a: Hamburger (Left path)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP6: Breakable wall after left path split",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP Foodsanity 6b: Lollipop (Right path)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP Foodsanity 7b: Candy (Right path)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP Foodsanity 8b: Cherries (Right path)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP Foodsanity 9b: Shortcake (Right path)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP: Clear 1 (300 CP)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "PP: Clear 2 (Rare Item)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant"
+		],
+		"requires": []
+	},
+	{
+		"name": "PP: Clear 3 (Pixel Sticker)",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "PP: D Rank",
+		"region": "Power Plant",
+		"category": [
+			"Power Plant"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "PP: C Rank",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Power Plant"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "PP: B Rank",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Power Plant"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "PP: A Rank",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Power Plant"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "PP: S Rank",
 		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Power Plant"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "PP: Left Food 1 (Grapes)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Right Food 1 (Apple)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Food 2 (Orange)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Food 3 (Silhouette Banana)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Food 4 (Dark Room Strawberry)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Food 5 (Dark Room Ice Cream)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Left Food 6 (Dark Room Hamburger)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"region": "Power Plant",
-		"name": "PP: Right Food 6 (Dark Room Lollipop)",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Right Food 7 (Candy)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "PP: Right Food 8 (Cherries)",
-		"region": "Power Plant",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"region": "Power Plant",
-		"name": "PP: Right Food 9 (Shortcake)",
-		"category": ["Power Plant Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
+		"name": "MN Foodsanity 1: Peach",
 		"region": "Mine",
-		"name": "MN: Item 1",
-		"category": ["Mine Locations"],
-		"requires": "|Impact Element| AND (|Reflect| OR |Dart Bullets| OR |Claw Shot| OR |Wave| OR |Diagonal Fire| OR |Lola Diagonal Formation| OR |Piercing| OR |Spread| OR |Diffusion| OR |Shield| OR |Return| OR |Bounce| OR |A Flash of Azure| OR |Iolite| OR |Multi-Universe| OR |Indigo Destiny| OR |Vast Circle| OR |Cluster Shot| OR (|Air Action| AND |Pheromone Shot|) OR |Spear Drop| OR |Lola Vanguard|)"
-	},
-	{
-		"region": "Mine",
-		"name": "MN: Item 2",
-		"category": ["Mine Locations"],
+		"category": [
+			"Mine",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MN: Item 3",
+		"name": "MN Foodsanity 2: Orange",
 		"region": "Mine",
-		"category": ["Mine Locations"],
+		"category": [
+			"Mine",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MN: Item 4",
+		"name": "MN Foodsanity 3: Apple",
 		"region": "Mine",
-		"category": ["Mine Locations"],
+		"category": [
+			"Mine",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MN: Item 5",
+		"name": "MN1: Impact Block in first shaft",
 		"region": "Mine",
-		"category": ["Mine Locations"],
+		"category": [
+			"Mine"
+		],
+		"requires": "|Impact Element|"
+	},
+	{
+		"name": "MN2: Breakable wall left of first locked door",
+		"region": "Mine",
+		"category": [
+			"Mine"
+		],
 		"requires": []
 	},
 	{
-		"name": "MN: Clear 1",
+		"name": "MN3: Secret room right of second pit",
 		"region": "Mine",
-		"category": ["Mine Locations"],
+		"category": [
+			"Mine"
+		],
 		"requires": []
 	},
 	{
-		"name": "MN: Clear 2",
+		"name": "MN Foodsanity 4: Pizza",
 		"region": "Mine",
-		"category": ["Mine Locations"],
+		"category": [
+			"Mine",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MN: Clear 3",
+		"name": "MN4: Bottom left of crusher section",
 		"region": "Mine",
-		"category": ["Mine Locations", "Clear3"],
+		"category": [
+			"Mine"
+		],
 		"requires": []
 	},
 	{
-		"name": "MN: Clear Flag",
+		"name": "MN Foodsanity 5: Melon",
 		"region": "Mine",
-		"category": ["Mine Locations"],
+		"category": [
+			"Mine",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "MN5: Breakable wall above electrified ladders",
+		"region": "Mine",
+		"category": [
+			"Mine"
+		],
+		"requires": []
+	},
+	{
+		"name": "MN Foodsanity 6: Candy",
+		"region": "Mine",
+		"category": [
+			"Mine",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "MN: Clear 1 (300 CP)",
+		"region": "Mine",
+		"category": [
+			"Mine"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "MN: Clear 2 (Rare Item)",
+		"region": "Mine",
+		"category": [
+			"Mine"
+		],
+		"requires": []
+	},
+	{
+		"name": "MN: Clear 3 (Pixel Sticker)",
+		"region": "Mine",
+		"category": [
+			"Mine"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "MN: D Rank",
+		"region": "Mine",
+		"category": [
+			"Mine"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MN: C Rank",
 		"region": "Mine",
-		"category": ["Mine Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Mine"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MN: B Rank",
 		"region": "Mine",
-		"category": ["Mine Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Mine"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MN: A Rank",
 		"region": "Mine",
-		"category": ["Mine Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Mine"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MN: S Rank",
 		"region": "Mine",
-		"category": ["Mine Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Mine"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "MN: Food 1 (Peach)",
-		"region": "Mine",
-		"category": ["Mine Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MN: Food 2 (Orange)",
-		"region": "Mine",
-		"category": ["Mine Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MN: Food 3 (Apple)",
-		"region": "Mine",
-		"category": ["Mine Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MN: Food 4 (Pizza)",
-		"region": "Mine",
-		"category": ["Mine Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MN: Food 5 (Melon)",
-		"region": "Mine",
-		"category": ["Mine Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MN: Food 6 (Candy)",
-		"region": "Mine",
-		"category": ["Mine Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MB: Item 1",
+		"name": "MB1: Breakable wall under first conveyor belt",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Item 2",
+		"name": "MB Foodsanity 1: Hamburger",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Item 3",
+		"name": "MB Foodsanity 2: Watermelon",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Item 4",
+		"name": "MB Foodsanity 3: Cherries",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Item 5",
+		"name": "MB2: Under spiked ceiling, across fast belt",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Clear 1",
+		"name": "MB3: Breakable wall above pit w/four saws",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Clear 2",
+		"name": "MB4: Breakable wall across pit from slow belt",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Clear 3",
+		"name": "MB Foodsanity 4: Orange",
 		"region": "Military Base",
-		"category": ["Military Base Locations", "Clear3"],
+		"category": [
+			"Military Base",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "MB: Clear Flag",
+		"name": "MB5: Secret tunnel with slow belt",
 		"region": "Military Base",
-		"category": ["Military Base Locations"],
+		"category": [
+			"Military Base"
+		],
+		"requires": []
+	},
+	{
+		"name": "MB Foodsanity 5: Grapes",
+		"region": "Military Base",
+		"category": [
+			"Military Base",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "MB Foodsanity 6: Peach",
+		"region": "Military Base",
+		"category": [
+			"Military Base",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "MB: Clear 1 (300 CP)",
+		"region": "Military Base",
+		"category": [
+			"Military Base"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "MB: Clear 2 (Rare Item)",
+		"region": "Military Base",
+		"category": [
+			"Military Base"
+		],
+		"requires": []
+	},
+	{
+		"name": "MB: Clear 3 (Pixel Sticker)",
+		"region": "Military Base",
+		"category": [
+			"Military Base"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "MB: D Rank",
+		"region": "Military Base",
+		"category": [
+			"Military Base"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MB: C Rank",
 		"region": "Military Base",
-		"category": ["Military Base Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Military Base"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MB: B Rank",
 		"region": "Military Base",
-		"category": ["Military Base Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Military Base"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MB: A Rank",
 		"region": "Military Base",
-		"category": ["Military Base Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Military Base"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "MB: S Rank",
 		"region": "Military Base",
-		"category": ["Military Base Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Military Base"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "MB: Food 1 (Hamburger)",
-		"region": "Military Base",
-		"category": ["Military Base Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MB: Food 2 (Watermelon)",
-		"region": "Military Base",
-		"category": ["Military Base Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MB: Food 3 (Cherries)",
-		"region": "Military Base",
-		"category": ["Military Base Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MB: Food 4 (Orange)",
-		"region": "Military Base",
-		"category": ["Military Base Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MB: Food 5 (Grapes)",
-		"region": "Military Base",
-		"category": ["Military Base Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "MB: Food 6 (Peach)",
-		"region": "Military Base",
-		"category": ["Military Base Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Item 1",
+		"name": "RT Foodsanity 1: Watermelon",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Item 2",
+		"name": "RT1: Breakable wall below first ladder",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Item 3",
+		"name": "RT1b: Pixel Sticker (Reincarnation)",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower"
+		],
+		"requires": "{YamlEnabled(UseJoule)}"
+	},
+	{
+		"name": "RT Foodsanity 2: Strawberry",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Item 4",
+		"name": "RT Foodsanity 3: Peach",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Item 5",
+		"name": "RT Foodsanity 4: Apple",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Item 6 (Reincarnation)",
+		"name": "RT2: Breakable wall behind recycling bin Xel",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Joule"],
+		"category": [
+			"Radio Tower"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Clear 1",
+		"name": "RT Foodsanity 5: Cherries",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Clear 2",
+		"name": "RT Foodsanity 6: Orange",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Clear 3",
+		"name": "RT Foodsanity 7: Lollipop",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Clear3"],
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "RT: Clear Flag",
+		"name": "RT Foodsanity 8: Banana",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations"],
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "RT3: Custom Points +50 at top of propeller bar shaft",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower"
+		],
+		"requires": []
+	},
+	{
+		"name": "RT Foodsanity 9: Ice Cream",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "RT4: Lone platform across hanging bar",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower"
+		],
+		"requires": []
+	},
+	{
+		"name": "RT Foodsanity 10: Grapes",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "RT5: Custom Points +50 at end of stage",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower"
+		],
+		"requires": []
+	},
+	{
+		"name": "RT: Clear 1 (300 CP)",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "RT: Clear 2 (Rare Item)",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower"
+		],
+		"requires": []
+	},
+	{
+		"name": "RT: Clear 3 (Pixel Sticker)",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "RT: D Rank",
+		"region": "Radio Tower",
+		"category": [
+			"Radio Tower"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "RT: C Rank",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Radio Tower"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "RT: B Rank",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Radio Tower"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "RT: A Rank",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Radio Tower"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "RT: S Rank",
 		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Radio Tower"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "RT: Food 1 (Watermelon)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 2 (Strawberry)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 3 (Peach)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 4 (Apple)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 5 (Cherries)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 6 (Orange)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 7 (Lollipop)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 8 (Banana)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 9 (Ice Cream)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "RT: Food 10 (Grapes)",
-		"region": "Radio Tower",
-		"category": ["Radio Tower Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Item 1",
+		"name": "HW Foodsanity 1: Strawberry",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Item 2",
+		"name": "HW Foodsanity 2: Peach",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Item 3",
+		"name": "HW1: Breakable wall in first appearing platform room",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Item 4",
+		"name": "HW Foodsanity 3: Cherries",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Item 5",
+		"name": "HW2: Breakable wall in second appearing platform room",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Item 6",
+		"name": "HW3: Breakable wall in large teal block",
 		"region": "Highway",
-		"category": ["Highway Locations", "Joule"],
+		"category": [
+			"Highway"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Clear 1",
+		"name": "HW Foodsanity 4: Hamburger",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Clear 2",
+		"name": "HW Foodsanity 5: Banana",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Clear 3",
+		"name": "HW4: Breakable wall behind shielded missiles",
 		"region": "Highway",
-		"category": ["Highway Locations", "Clear3"],
+		"category": [
+			"Highway"
+		],
 		"requires": []
 	},
 	{
-		"name": "HW: Clear Flag",
+		"name": "HW5: Breakable wall behind breakable wall",
 		"region": "Highway",
-		"category": ["Highway Locations"],
+		"category": [
+			"Highway"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW Foodsanity 6: Apple",
+		"region": "Highway",
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW Foodsanity 7: Shortcake",
+		"region": "Highway",
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW Foodsanity 8: Orange",
+		"region": "Highway",
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW Foodsanity 9: Pizza",
+		"region": "Highway",
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW6: Wooden box on truck",
+		"region": "Highway",
+		"category": [
+			"Highway"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW Foodsanity 10: Grapes",
+		"region": "Highway",
+		"category": [
+			"Highway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW: Clear 1 (300 CP)",
+		"region": "Highway",
+		"category": [
+			"Highway"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "HW: Clear 2 (Rare Item)",
+		"region": "Highway",
+		"category": [
+			"Highway"
+		],
+		"requires": []
+	},
+	{
+		"name": "HW: Clear 3 (Pixel Sticker)",
+		"region": "Highway",
+		"category": [
+			"Highway"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "HW: D Rank",
+		"region": "Highway",
+		"category": [
+			"Highway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "HW: C Rank",
 		"region": "Highway",
-		"category": ["Highway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Highway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "HW: B Rank",
 		"region": "Highway",
-		"category": ["Highway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Highway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "HW: A Rank",
 		"region": "Highway",
-		"category": ["Highway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Highway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "HW: S Rank",
 		"region": "Highway",
-		"category": ["Highway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Highway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "HW: Food 1 (Strawberry)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 2 (Peach)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 3 (Cherries)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 4 (Hamburger)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 5 (Banana)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 6 (Apple)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 7 (Shortcake)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 8 (Orange)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 9 (Pizza)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "HW: Food 10 (Grapes)",
-		"region": "Highway",
-		"category": ["Highway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CB: Item 1",
+		"name": "CB Foodsanity 1: Strawberry",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Item 2",
+		"name": "CB1: Ledge in invisible wall room (Top Left)",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Item 3",
+		"name": "CB Foodsanity 2: Melon",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Item 4",
+		"name": "CB Foodsanity 3: Apple",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Item 5",
+		"name": "CB2: Breakable wall in invisible wall room (Top Left)",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Clear 1",
+		"name": "CB Foodsanity 4: Shortcake",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Clear 2",
+		"name": "CB3: Breakable wall after presidential busts (Bottom)",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Clear 3",
+		"name": "CB4: Breakable wall below ladder (Top Right)",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Clear3"],
+		"category": [
+			"Capitol Building"
+		],
 		"requires": []
 	},
 	{
-		"name": "CB: Clear Flag",
+		"name": "CB5: Behind moving ceiling (Top Right)",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations"],
+		"category": [
+			"Capitol Building"
+		],
+		"requires": []
+	},
+	{
+		"name": "CB Foodsanity 5: Grapes",
+		"region": "Capitol Building",
+		"category": [
+			"Capitol Building",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "CB Foodsanity 6: Meat",
+		"region": "Capitol Building",
+		"category": [
+			"Capitol Building",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "CB: Clear 1 (300 CP)",
+		"region": "Capitol Building",
+		"category": [
+			"Capitol Building"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "CB: Clear 2 (Rare Item)",
+		"region": "Capitol Building",
+		"category": [
+			"Capitol Building"
+		],
+		"requires": []
+	},
+	{
+		"name": "CB: Clear 3 (Pixel Sticker)",
+		"region": "Capitol Building",
+		"category": [
+			"Capitol Building"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "CB: D Rank",
+		"region": "Capitol Building",
+		"category": [
+			"Capitol Building"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CB: C Rank",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Capitol Building"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CB: B Rank",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Capitol Building"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CB: A Rank",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Capitol Building"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CB: S Rank",
 		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Capitol Building"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "CB: Food 1 (Strawberry)",
-		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CB: Food 2 (Apple)",
-		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CB: Food 3 (Melon)",
-		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CB: Food 4 (Grapes)",
-		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CB: Food 5 (ShoCBcake)",
-		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CB: Food 6 (Meat)",
-		"region": "Capitol Building",
-		"category": ["Capitol Building Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Item 1",
+		"name": "GW Foodsanity 1: Orange",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Item 2",
+		"name": "GW1: Breakable wall at end of red/blue changing room",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Item 3",
+		"name": "GW Foodsanity 2: Apple",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Item 4",
+		"name": "GW Foodsanity 3a: Lollipop",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Item 5",
+		"name": "GWE: Pixel Sticker over pit in shortcut",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(UseEkoro)}"
+	},
+	{
+		"name": "GW Foodsanity 4a: Candy",
+		"region": "Gateway",
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Item 6",
+		"name": "GW Foodsanity 5a: Ice Cream",
 		"region": "Gateway",
-		"category": ["Gateway Locations", "GW6"],
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Clear 1",
+		"name": "GW Foodsanity 6a: Shortcake",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Clear 2",
+		"name": "GW2: Breakable wall at end of food shortcut",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Clear 3",
+		"name": "GW2b: Breakable wall at end of food shortcut (Bonus)",
 		"region": "Gateway",
-		"category": ["Gateway Locations", "Clear3"],
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseJoule)} or {YamlEnabled(UseCopen)} or {YamlEnabled(UseTenzou)}"
+	},
+	{
+		"name": "GW Foodsanity 3b: Watermelon",
+		"region": "Gateway",
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "GW: Clear Flag",
+		"name": "GW3: Breakable wall in bottom right of giant changing room",
 		"region": "Gateway",
-		"category": ["Gateway Locations"],
+		"category": [
+			"Gateway"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW3: Top left of giant changing room on green platforms",
+		"region": "Gateway",
+		"category": [
+			"Gateway"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW Foodsanity 4b: Banana",
+		"region": "Gateway",
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW3: Breakable wall after giant changing room",
+		"region": "Gateway",
+		"category": [
+			"Gateway"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW Foodsanity 7: Strawberry",
+		"region": "Gateway",
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW Foodsanity 8: Peach",
+		"region": "Gateway",
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW Foodsanity 9: Meat",
+		"region": "Gateway",
+		"category": [
+			"Gateway",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW: Clear 1 (300 CP)",
+		"region": "Gateway",
+		"category": [
+			"Gateway"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "GW: Clear 2 (Rare Item)",
+		"region": "Gateway",
+		"category": [
+			"Gateway"
+		],
+		"requires": []
+	},
+	{
+		"name": "GW: Clear 3 (Pixel Sticker)",
+		"region": "Gateway",
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "GW: D Rank",
+		"region": "Gateway",
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "GW: C Rank",
 		"region": "Gateway",
-		"category": ["Gateway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "GW: B Rank",
 		"region": "Gateway",
-		"category": ["Gateway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "GW: A Rank",
 		"region": "Gateway",
-		"category": ["Gateway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "GW: S Rank",
 		"region": "Gateway",
-		"category": ["Gateway Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Gateway"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "GW: Food 1 (Orange)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Food 2 (Apple)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Left Food 3 (Watermelon)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Left Food 4 (Banana)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Right Food 3 (Lollipop)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Right Food 4 (Candy)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Right Food 5 (Ice Cream)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Right Food 6 (Shortcake)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Food 7 (Strawberry)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Food 8 (Peach)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "GW: Food 9 (Meat)",
-		"region": "Gateway",
-		"category": ["Gateway Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Item 1",
+		"name": "SS1: Left ladder at start of stage",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Item 2",
+		"name": "SS Foodsanity 1: Orange",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Item 3",
+		"name": "SS Foodsanity 2: Cherries",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Item 4",
+		"name": "SS2: Top of platform shaft",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace"
+		],
+		"requires": "{YamlEnabled(UseEkoro)} or |Air Action| or |Air Action: Hover| or |Air Action: Mid-Air Dash|"
+	},
+	{
+		"name": "SS3: Breakable wall at bottom of platform shaft",
+		"region": "Subspace",
+		"category": [
+			"Subspace"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Item 5",
+		"name": "SS Foodsanity 3: Watermelon",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Item 6",
+		"name": "SS Foodsanity 4: Lollipop",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Clear 1",
+		"name": "SS4: Platform dropdown",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Clear 2",
+		"name": "SS5: Breakable wall above safe platform",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Clear 3",
+		"name": "SS Foodsanity 5: Melon",
 		"region": "Subspace",
-		"category": ["Subspace Locations", "Clear3"],
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "SS: Clear Flag",
+		"name": "SS Foodsanity 6: Grapes",
 		"region": "Subspace",
-		"category": ["Subspace Locations"],
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "SS Foodsanity 7: Banana",
+		"region": "Subspace",
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "SS6: Breakable wall left of locked door",
+		"region": "Subspace",
+		"category": [
+			"Subspace"
+		],
+		"requires": []
+	},
+	{
+		"name": "SS Foodsanity 8: Pizza",
+		"region": "Subspace",
+		"category": [
+			"Subspace",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "SS: Clear 1 (300 CP)",
+		"region": "Subspace",
+		"category": [
+			"Subspace"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "SS: Clear 2 (Rare Item)",
+		"region": "Subspace",
+		"category": [
+			"Subspace"
+		],
+		"requires": []
+	},
+	{
+		"name": "SS: Clear 3 (Pixel Sticker)",
+		"region": "Subspace",
+		"category": [
+			"Subspace"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "SS: D Rank",
+		"region": "Subspace",
+		"category": [
+			"Subspace"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "SS: C Rank",
 		"region": "Subspace",
-		"category": ["Subspace Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Subspace"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "SS: B Rank",
 		"region": "Subspace",
-		"category": ["Subspace Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Subspace"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "SS: A Rank",
 		"region": "Subspace",
-		"category": ["Subspace Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Subspace"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "SS: S Rank",
 		"region": "Subspace",
-		"category": ["Subspace Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Subspace"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "SS: Food 1 (Orange)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Food 2 (Cherries)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Food 3 (Watermelon)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Food 4 (Lollipop)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Food 5 (Melon)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Food 6 (Grapes)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Food 7 (Banana)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "SS: Food 8 (Pizza)",
-		"region": "Subspace",
-		"category": ["Subspace Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Item 1",
+		"name": "DT Foodsanity 1: Hamburger",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Item 2",
+		"name": "DT1: Fall in pit in first room (1)",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Item 3",
+		"name": "DT2: Fall in pit in first room (2)",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Item 4",
+		"name": "DT Foodsanity 2: Strawberry",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Item 5",
+		"name": "DT3: Across hanging bar in counter-clockwise room",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Item 6",
+		"name": "DT Foodsanity 3: Banana",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Item 7",
+		"name": "DT4: Breakable wall in magnet room",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Clear 1",
+		"name": "DT Foodsanity 4: Peach",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Clear 2",
+		"name": "DT Foodsanity 5: Shortcake",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Clear 3",
+		"name": "DT Foodsanity 6: Ice Cream",
 		"region": "Distopia",
-		"category": ["Distopia Locations", "Clear3"],
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "DT: Clear Flag",
+		"name": "DT5: Breakable wall in top left of spotlight room",
 		"region": "Distopia",
-		"category": ["Distopia Locations"],
+		"category": [
+			"Distopia"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT Foodsanity 7: Apple",
+		"region": "Distopia",
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT Foodsanity 8: Grapes",
+		"region": "Distopia",
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT Foodsanity 9: Cherries",
+		"region": "Distopia",
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT Foodsanity 10: Meat",
+		"region": "Distopia",
+		"category": [
+			"Distopia",
+			"Foodsanity"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT6: Halfway up hanging bar room w/rising crushers",
+		"region": "Distopia",
+		"category": [
+			"Distopia"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT7: Top of hanging bar room w/rising crushers",
+		"region": "Distopia",
+		"category": [
+			"Distopia"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT: Clear 1 (300 CP)",
+		"region": "Distopia",
+		"category": [
+			"Distopia"
+		],
 		"requires": [],
-		"place_item": ["Clear Flag"]
+		"place_item": "|Clear Flag|"
+	},
+	{
+		"name": "DT: Clear 2 (Rare Item)",
+		"region": "Distopia",
+		"category": [
+			"Distopia"
+		],
+		"requires": []
+	},
+	{
+		"name": "DT: Clear 3 (Pixel Sticker)",
+		"region": "Distopia",
+		"category": [
+			"Distopia"
+		],
+		"requires": "{YamlEnabled(UseBeck)} or {YamlEnabled(UseGunvolt)}"
+	},
+	{
+		"name": "DT: D Rank",
+		"region": "Distopia",
+		"category": [
+			"Distopia"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "DT: C Rank",
 		"region": "Distopia",
-		"category": ["Distopia Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Distopia"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "DT: B Rank",
 		"region": "Distopia",
-		"category": ["Distopia Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Distopia"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "DT: A Rank",
 		"region": "Distopia",
-		"category": ["Distopia Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Distopia"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "DT: S Rank",
 		"region": "Distopia",
-		"category": ["Distopia Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Distopia"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "DT: Food 1 (Hamburger)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 2 (Strawberry)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 3 (Banana)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 4 (Peach)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 5 (Shortcake)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 6 (Ice Cream)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 7 (Dark Room Apple)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 8 (Dark Room Grape)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 9 (Cherries)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "DT: Food 10 (Meat)",
-		"region": "Distopia",
-		"category": ["Distopia Locations", "Foodsanity"],
-		"requires": []
-	},
-	{
-		"name": "CC: Item 1",
+		"name": "CC1: Breakable wall left of boss rush",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations"],
+		"category": [
+			"Cyberspace Colosseum"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Pyrogen Refight",
+		"name": "CCB1: Pyrogen Refight",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB2: Cryosphere Refight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB3: Dynatron Refight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB4: Seismic Refight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB5: Battalion Refight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB6: Aviator Refight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB7: Brandish Refight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB8: Countershade Refight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CCB9: Clone Fight",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(BossRush)}"
+	},
+	{
+		"name": "CC Foodsanity 1: Watermelon",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Cryosphere Refight",
+		"name": "CC Foodsanity 2: Melon",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Dynatron Refight",
+		"name": "CC Foodsanity 3: Shortcake",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Seismic Refight",
+		"name": "CC Foodsanity 4: Ice Cream",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Battalion Refight",
+		"name": "CC Foodsanity 5: Meat",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Aviator Refight",
+		"name": "CC Foodsanity 6: Pizza",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Brandish Refight",
+		"name": "CC Foodsanity 7: Apple",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Countershade Refight",
+		"name": "CC Foodsanity 8: Grapes",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
-		"requires": []
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		]
 	},
 	{
-		"name": "CC: Clone Fight",
+		"name": "CC Foodsanity 9: Banana",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Refights"],
-		"requires": []
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		]
 	},
 	{
-		"name": "CC: Clear 1",
+		"name": "CC Foodsanity 10: Hamburger",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations"],
-		"requires": []
+		"category": [
+			"Cyberspace Colosseum",
+			"Foodsanity"
+		]
 	},
 	{
-		"name": "CC: Clear 2",
+		"name": "CC: Clear 1 (300 CP)",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations"],
-		"requires": []
-	},
-	{
-		"name": "CC: Clear Flag",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations"],
+		"category": [
+			"Cyberspace Colosseum"
+		],
 		"requires": [],
-        "victory": true
+		"victory": true
+	},
+	{
+		"name": "CC: Clear 2 (Pixel Sticker)",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": []
+	},
+	{
+		"name": "CC: D Rank",
+		"region": "Cyberspace Colosseum",
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CC: C Rank",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CC: B Rank",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CC: A Rank",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
 		"name": "CC: S Rank",
 		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Ranksanity"],
-		"requires": "|Awaiting Orders| OR |Normal Bullets| OR |Fire Bullets| OR |Crystal Bullets| OR |Spark Bullets| OR |Drill Bullets| OR |Missile Bullets| OR |Gyro Bullets| OR |Blade Bullets| OR |Tracer Bullets| OR |Dart Bullets| OR |Angel's Arrow| OR |A Flash of Azure| OR |Multi-Universe| OR |Iolite| OR |Indigo Destiny| OR |Vast Circle| OR |B-Wulf| OR |Claw Shot| OR |Demon Shot| OR |Pheromone Shot|"
+		"category": [
+			"Cyberspace Colosseum"
+		],
+		"requires": "{YamlEnabled(Ranksanity)}"
 	},
 	{
-		"name": "CC: Food 1 (Watermelon)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"name": "WELCOME TO THE VR WORLD: Beat the City stage",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Food 2 (Melon)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"name": "THE MIGHTIEST OF ALL: Unlock the Gateway stage",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Clear Flag:9|"
+	},
+	{
+		"name": "WE ARE MIGHTY: Beat the game as Beck",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and (|Beck's Normal Bullet Type| or |Fire Bullet Type| or |Crystal Bullet Type| or |Spark Bullet Type| or |Drill Bullet Type| or |Missile Bullet Type| or |Gyro Bullet Type| or |Blade Bullet Type| or |Tracer Bullet Type|)",
+		"place_item": "|Customization Points +50|"
+	},
+	{
+		"name": "OVERSURGE: Beat the game as Gunvolt",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and |Dart Bullet Type|",
+		"place_item": "|Customization Points +50|"
+	},
+	{
+		"name": "ELITE ANGEL: Beat the game as Ekoro",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and |Angel's Arrow Bullet Type|",
+		"place_item": "|Customization Points +50|"
+	},
+	{
+		"name": "UP THE ANTE: Beat the game on Hard Mode",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and |Hard Mode Unlocked|",
+		"place_item": "|Customization Points +50|"
+	},
+	{
+		"name": "SUPER SPRINTER: Beat the game under one hour of playtime",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and |A Flash of Azure Bullet Type|",
+		"place_item": "|Customization Points +50|"
+	},
+	{
+		"name": "UP CLOSE AND PERSONAL: Get a Burst on a boss",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Food 3 (Shortcake)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"name": "IN YOUR ELEMENT: Defeat all bosses with their weakness (green hitspark)",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and |Heat Element| and |Freeze Element| and |Shock Element| and |Smash Element| and |Impact Element| and |Press Element| and |Slicer Element| and |Analyze Element|"
+	},
+	{
+		"name": "NOT EVEN A SCRATCH: Beat a stage without taking damage",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Food 4 (Ice Cream)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"name": "FULL MARKS: Get an S Rank",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Food 5 (Meat)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"name": "ELATION: Beat a stage with a 10 Burst Combo or higher",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Food 6 (Pizza)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"name": "EUPHORIA: Beat a stage with a 30 Burst Combo or higher",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Food 7 (Apple)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
+		"name": "TRANCE: Beat a stage with a 50 Burst Combo or higher",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(GW: D Rank)}"
+	},
+	{
+		"name": "PARADOX: Beat a stage with a 0 Burst Combo",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
 		"requires": []
 	},
 	{
-		"name": "CC: Food 8 (Grapes)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
-		"requires": []
+		"name": "PRIMED AND READY: Beat a stage with 1500 CP or more used",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{ItemValue(CP:1500)}"
 	},
 	{
-		"name": "CC: Food 9 (Banana)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
-		"requires": []
+		"name": "GEARED UP: Beat a stage with 2000 CP or more used",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{ItemValue(CP:2000)}"
 	},
 	{
-		"name": "CC: Food 10 (Hamburger)",
-		"region": "Cyberspace Colosseum",
-		"category": ["Cyberspace Colosseum Locations", "Foodsanity"],
-		"requires": []
+		"name": "GET EQUIPPED: Beat a stage with 4000 CP or more used",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{ItemValue(CP:4000)}"
+	},
+	{
+		"name": "FULLY DECKED OUT: Beat a stage with 6000 CP or more used",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{ItemValue(CP:6000)}"
+	},
+	{
+		"name": "STICKING WITH IT: Beat every stage with Custom Slot 1",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)}",
+		"place_item": "|Customization Points +50|"
+	},
+	{
+		"name": "THE LARGE CITY: Beat the City stage with only 0.2 seconds of Bullet Duration and Large bullets",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|@Big Weapons:1|"
+	},
+	{
+		"name": "WAVES OF OIL: Beat the Oil Platform stage with only the Wave Trajectory",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Oil Platform Access Codes| and |Wave Trajectory| and |@Wave Weapons:1|"
+	},
+	{
+		"name": "IN CHARGE OF THE BUREAU: Beat the Water Works Bureau stage with only Charged Shots",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Water Works Access Codes| and |Charge Shot|"
+	},
+	{
+		"name": "ELECTRIC VELOCITY: Beat the Power Plant stage with only 1 max On-Screen Bullet and Fast Bullets",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Power Plant Access Codes| and |Fast Bullets| and |@Fast Weapons:1|"
+	},
+	{
+		"name": "CURVING THROUGH THE MINE: Beat the Mine stage with only Curve trajectory",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Mine Access Codes| and |Curve Trajectory| and |@Curve Weapons:1|"
+	},
+	{
+		"name": "MEAGRE BASE INFILTRATION: Beat the Military Base with less than 501 Customization Points used",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Military Base Access Codes| and |Stationary Firing| and |Damage Reduction| and |Knockback Resistance| and |Rapid-Fire Limitation|"
+	},
+	{
+		"name": "BOUNCIN' OFF THE TOWER: Beat the Radio Tower stage with only Reflect trajectory",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Radio Tower Access Codes| and |Reflect Trajectory| and |@Reflect Weapons:1|"
+	},
+	{
+		"name": "HUNGRY HIGHWAY: Beat the Highway stage with all food items in your inventory, unused",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Highway Access Codes|"
+	},
+	{
+		"name": "SPREAD ACROSS THE CAPITOL: Beat the Capitol Building stage with only Spread Shot",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|Capitol Building Access Codes| and |Spread Shot| and |@Spread Weapons:1|"
+	},
+	{
+		"name": "NO TIME WASTED: Beat the Cyberspace Colosseum stage in ten minutes or less",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and |Attack Power Up|"
+	},
+	{
+		"name": "CREDIT WHERE CREDIT'S DUE: Get 1000 points in the Credits minigame",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "{canReachLocation(CC: D Rank)} and (|Beck's Normal Bullet Type| or |Fire Bullet Type| or |Crystal Bullet Type| or |Spark Bullet Type| or |Drill Bullet Type| or |Missile Bullet Type| or |Gyro Bullet Type| or |Blade Bullet Type| or |Tracer Bullet Type| or |Mine Bullet Type| or |Dart Bullet Type|)"
+	},
+	{
+		"name": "Cheevosanity Complete!",
+		"region": "Cheevosanity",
+		"category": [
+			"Cheevosanity"
+		],
+		"requires": "|@Cheevosanity:31|",
+		"victory": true
+	},
+	{
+		"name": "Starting Weapon",
+		"region": "Free Items",
+		"category": [
+			"Free Items"
+		],
+		"requires": "{YamlDisabled(NewGamePlus)}",
+		"place_item": "|@Weapons|"
+	},
+	{
+		"name": "Starting Weapon (NG+)",
+		"region": "Free Items",
+		"category": [
+			"Free Items"
+		],
+		"requires": "{YamlEnabled(NewGamePlus)}",
+		"place_item": "|@WeaponsPlus|"
 	}
 ]
