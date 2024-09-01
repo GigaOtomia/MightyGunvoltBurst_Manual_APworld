@@ -2,6 +2,6 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "MightyGunvoltBurst",
   "creator": "GigaOtomia",
-  "filler_item_name": "Customization Points +50",
-  "starting_items": "|Customization Points +1000|"
+  "filler_item_name": "Customization Points +2",
+  "starting_items": []
 }

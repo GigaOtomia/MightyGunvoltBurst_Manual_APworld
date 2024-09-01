@@ -17,49 +17,49 @@
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Oil Platform Access Codes|"
+		"requires": "|Clear Flag| and |Oil Platform Access Codes|"
 	},
 	"Water Works Bureau": {
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Water Works Access Codes|"
+		"requires": "|Clear Flag| and |Water Works Access Codes|"
 	},
 	"Power Plant": {
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Power Plant Access Codes"
+		"requires": "|Clear Flag| and |Power Plant Access Codes|"
 	},
 	"Mine": {
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Mine Access Codes|"
+		"requires": "|Clear Flag| and |Mine Access Codes|"
 	},
 	"Military Base": {
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Military Base Access Codes|"
+		"requires": "|Clear Flag| and |Military Base Access Codes|"
 	},
 	"Radio Tower": {
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Radio Tower Access Codes|"
+		"requires": "|Clear Flag| and |Radio Tower Access Codes|"
 	},
 	"Highway": {
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Highway Access Codes|"
+		"requires": "|Clear Flag| and |Highway Access Codes|"
 	},
 	"Capitol Building": {
 		"connects_to": [
 			"Gateway"
 		],
-		"requires": "|Capitol Building Access Codes|"
+		"requires": "|Clear Flag| and |Capitol Building Access Codes|"
 	},
 	"Gateway": {
 		"connects_to": [

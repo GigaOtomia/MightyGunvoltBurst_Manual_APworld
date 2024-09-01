@@ -100,7 +100,7 @@
 			"City"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "CT: Clear 2 (Rare Item)",
@@ -266,7 +266,7 @@
 		"category": [
 			"Oil Platform"
 		],
-		"requires": "|Air Action| or |Air Action: Mid-Air Dash| or {YamlEnabled(UseJoule)}"
+		"requires": "|Air Action| or |Air Action - Mid-Air Dash| or {YamlEnabled(UseJoule)}"
 	},
 	{
 		"name": "OP Foodsanity 7: Apple",
@@ -302,7 +302,7 @@
 			"Oil Platform"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "OP: Clear 2 (Rare Item)",
@@ -470,7 +470,7 @@
 			"Water Works Bureau"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "WWB: Clear 2 (Rare Item)",
@@ -682,7 +682,7 @@
 			"Power Plant"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "PP: Clear 2 (Rare Item)",
@@ -841,7 +841,7 @@
 			"Mine"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "MN: Clear 2 (Rare Item)",
@@ -1000,7 +1000,7 @@
 			"Military Base"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "MB: Clear 2 (Rare Item)",
@@ -1203,7 +1203,7 @@
 			"Radio Tower"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "RT: Clear 2 (Rare Item)",
@@ -1406,7 +1406,7 @@
 			"Highway"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "HW: Clear 2 (Rare Item)",
@@ -1565,7 +1565,7 @@
 			"Capitol Building"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "CB: Clear 2 (Rare Item)",
@@ -1785,7 +1785,7 @@
 			"Gateway"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "GW: Clear 2 (Rare Item)",
@@ -1875,7 +1875,7 @@
 		"category": [
 			"Subspace"
 		],
-		"requires": "{YamlEnabled(UseEkoro)} or |Air Action| or |Air Action: Hover| or |Air Action: Mid-Air Dash|"
+		"requires": "{YamlEnabled(UseEkoro)} or |Air Action| or |Air Action - Hover| or |Air Action - Mid-Air Dash|"
 	},
 	{
 		"name": "SS3: Breakable wall at bottom of platform shaft",
@@ -1970,7 +1970,7 @@
 			"Subspace"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "SS: Clear 2 (Rare Item)",
@@ -2181,7 +2181,7 @@
 			"Distopia"
 		],
 		"requires": [],
-		"place_item": "|Clear Flag|"
+		"place_item": ["Clear Flag"]
 	},
 	{
 		"name": "DT: Clear 2 (Rare Item)",
@@ -2251,73 +2251,64 @@
 		"name": "CCB1: Pyrogen Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB2: Cryosphere Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB3: Dynatron Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB4: Seismic Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB5: Battalion Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB6: Aviator Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB7: Brandish Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB8: Countershade Refight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CCB9: Clone Fight",
 		"region": "Cyberspace Colosseum",
 		"category": [
-			"Cyberspace Colosseum"
-		],
-		"requires": "{YamlEnabled(BossRush)}"
+			"Cyberspace Colosseum", "BossRush"
+		]
 	},
 	{
 		"name": "CC Foodsanity 1: Watermelon",
@@ -2407,12 +2398,12 @@
 		]
 	},
 	{
-		"name": "CC: Clear 1 (300 CP)",
+		"name": "CC: Clear 1 (300 CP) (Victory!)",
 		"region": "Cyberspace Colosseum",
 		"category": [
 			"Cyberspace Colosseum"
 		],
-		"requires": [],
+		"requires": "{YamlDisabled(UseCheevos)} or |@Cheevosanity:31|",
 		"victory": true
 	},
 	{
@@ -2486,7 +2477,7 @@
 			"Cheevosanity"
 		],
 		"requires": "{canReachLocation(CC: D Rank)} and (|Beck's Normal Bullet Type| or |Fire Bullet Type| or |Crystal Bullet Type| or |Spark Bullet Type| or |Drill Bullet Type| or |Missile Bullet Type| or |Gyro Bullet Type| or |Blade Bullet Type| or |Tracer Bullet Type|)",
-		"place_item": "|Customization Points +50|"
+		"place_item": ["Customization Points +10"]
 	},
 	{
 		"name": "OVERSURGE: Beat the game as Gunvolt",
@@ -2495,7 +2486,7 @@
 			"Cheevosanity"
 		],
 		"requires": "{canReachLocation(CC: D Rank)} and |Dart Bullet Type|",
-		"place_item": "|Customization Points +50|"
+		"place_item": ["Customization Points +10"]
 	},
 	{
 		"name": "ELITE ANGEL: Beat the game as Ekoro",
@@ -2504,7 +2495,7 @@
 			"Cheevosanity"
 		],
 		"requires": "{canReachLocation(CC: D Rank)} and |Angel's Arrow Bullet Type|",
-		"place_item": "|Customization Points +50|"
+		"place_item": ["Customization Points +10"]
 	},
 	{
 		"name": "UP THE ANTE: Beat the game on Hard Mode",
@@ -2513,7 +2504,7 @@
 			"Cheevosanity"
 		],
 		"requires": "{canReachLocation(CC: D Rank)} and |Hard Mode Unlocked|",
-		"place_item": "|Customization Points +50|"
+		"place_item": ["Customization Points +10"]
 	},
 	{
 		"name": "SUPER SPRINTER: Beat the game under one hour of playtime",
@@ -2522,7 +2513,7 @@
 			"Cheevosanity"
 		],
 		"requires": "{canReachLocation(CC: D Rank)} and |A Flash of Azure Bullet Type|",
-		"place_item": "|Customization Points +50|"
+		"place_item": ["Customization Points +10"]
 	},
 	{
 		"name": "UP CLOSE AND PERSONAL: Get a Burst on a boss",
@@ -2627,7 +2618,7 @@
 			"Cheevosanity"
 		],
 		"requires": "{canReachLocation(CC: D Rank)}",
-		"place_item": "|Customization Points +50|"
+		"place_item": ["Customization Points +10"]
 	},
 	{
 		"name": "THE LARGE CITY: Beat the City stage with only 0.2 seconds of Bullet Duration and Large bullets",
@@ -2718,30 +2709,27 @@
 		"requires": "{canReachLocation(CC: D Rank)} and (|Beck's Normal Bullet Type| or |Fire Bullet Type| or |Crystal Bullet Type| or |Spark Bullet Type| or |Drill Bullet Type| or |Missile Bullet Type| or |Gyro Bullet Type| or |Blade Bullet Type| or |Tracer Bullet Type| or |Mine Bullet Type| or |Dart Bullet Type|)"
 	},
 	{
-		"name": "Cheevosanity Complete!",
-		"region": "Cheevosanity",
-		"category": [
-			"Cheevosanity"
-		],
-		"requires": "|@Cheevosanity:31|",
-		"victory": true
-	},
-	{
 		"name": "Starting Weapon",
 		"region": "Free Items",
 		"category": [
-			"Free Items"
+			"Free Items", "NG"
 		],
-		"requires": "{YamlDisabled(NewGamePlus)}",
-		"place_item": "|@Weapons|"
+		"place_item_category": ["WeaponsMinus"]
 	},
 	{
-		"name": "Starting Weapon (NG+)",
+		"name": "Starting Weapon (New Game Plus)",
+		"region": "Free Items",
+		"category": [
+			"Free Items", "NGPlus"
+		],
+		"place_item_category": ["Weapons"]
+	},
+	{
+		"name": "Starting Customization Points",
 		"region": "Free Items",
 		"category": [
 			"Free Items"
 		],
-		"requires": "{YamlEnabled(NewGamePlus)}",
-		"place_item": "|@WeaponsPlus|"
+		"place_item": ["Customization Points +1000"]
 	}
 ]

@@ -56,173 +56,174 @@
   {
 		"count":  1,
 		"name": "Beck's Normal Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Fire Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Crystal Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Spark Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Drill Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Missile Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Gyro Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Blade Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Tracer Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Beck", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Mine Bullet Type",
-		"category": ["WeaponsPlus", "Beck", "Big Weapons"],
+		"category": ["Weapons", "Beck", "Big Weapons", "Unique Parts"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Dart Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Gunvolt", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Gunvolt", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Angel's Arrow Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Ekoro", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Ekoro", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Arrow Shot Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Call", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Call", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "A Flash of Azure Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Joule"]
+		"category": ["WeaponsMinus", "Weapons", "Joule"],
+		"progression": true
   },
   {
 		"count":  1,
 		"name": "Multi-Universe Bullet Type",
-		"category": ["WeaponsPlus", "Joule", "Wave Weapons"],
+		"category": ["Weapons", "Joule", "Wave Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Iolite Bullet Type",
-		"category": ["WeaponsPlus", "Joule"],
+		"category": ["Weapons", "Joule"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Indigo Destiny Bullet Type",
-		"category": ["WeaponsPlus", "Joule", "Spread Weapons"],
+		"category": ["Weapons", "Joule", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Vast Circle Bullet Type",
-		"category": ["WeaponsPlus", "Joule", "Big Weapons"],
+		"category": ["Weapons", "Joule", "Big Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Reincarnation Bullet Type",
-		"category": ["WeaponsPlus", "Joule", "Big Weapons"],
+		"category": ["Weapons", "Joule", "Big Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Stratosphere Bullet Type",
-		"category": ["WeaponsPlus", "Joule", "Spread Weapons"],
+		"category": ["Weapons", "Joule", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Parallel World Bullet Type",
-		"category": ["WeaponsPlus", "Joule", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["Weapons", "Joule", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Claw Shot Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Ray", "Big Weapons", "Reflect Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Ray", "Big Weapons", "Reflect Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Ray's Normal Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Ray", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Ray", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "B-Wulf Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Copen", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Copen", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "G-Snatcher Bullet Type",
-		"category": ["WeaponsPlus", "Copen", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
+		"category": ["Weapons", "Copen", "Big Weapons", "Curve Weapons", "Wave Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "P-Laser Bullet Type",
-		"category": ["WeaponsPlus", "Copen"]
+		"category": ["Weapons", "Copen"]
   },
   {
 		"count":  1,
 		"name": "Demon Shot Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Kurona", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Kurona", "Big Weapons", "Curve Weapons", "Wave Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Pheromone Shot Bullet Type",
-		"category": ["Weapons", "WeaponsPlus", "Tenzou", "Big Weapons", "Reflect Weapons", "Spread Weapons"],
+		"category": ["WeaponsMinus", "Weapons", "Tenzou", "Big Weapons", "Reflect Weapons", "Spread Weapons"],
 		"progression": true
   },
   {
 		"count":  1,
 		"name": "Pheromone Beam Bullet Type",
-		"category": ["WeaponsPlus", "Tenzou"]
+		"category": ["Weapons", "Tenzou"]
   },
   {
 		"count":  1,
@@ -255,7 +256,8 @@
   {
 		"count":  1,
 		"name": "Curve Trajectory",
-		"category": ["Beck", "Gunvolt", "Ekoro", "Call", "Joule", "Ray", "Copen", "Kurona", "Active Parts"]
+		"category": ["Beck", "Gunvolt", "Ekoro", "Call", "Joule", "Ray", "Copen", "Kurona", "Active Parts"],
+		"progression": true
   },
   {
 		"count":  1,
@@ -272,7 +274,8 @@
   {
 		"count":  1,
 		"name": "Reflect Trajectory",
-		"category": ["Beck", "Gunvolt", "Ekoro", "Call", "Joule", "Ray", "Copen", "Kurona", "Tenzou", "Active Parts"]
+		"category": ["Beck", "Gunvolt", "Ekoro", "Call", "Joule", "Ray", "Copen", "Kurona", "Tenzou", "Active Parts"],
+		"progression": true
   },
   {
 		"count":  1,
@@ -288,7 +291,8 @@
   {
 		"count":  1,
 		"name": "Fast Bullets",
-		"category": ["Beck", "Gunvolt", "Ekoro", "Call", "Joule", "Ray", "Copen", "Kurona", "Tenzou", "Active Parts"]
+		"category": ["Beck", "Gunvolt", "Ekoro", "Call", "Joule", "Ray", "Copen", "Kurona", "Tenzou", "Active Parts"],
+		"progression": true
   },
   {
 		"count":  1,
@@ -441,12 +445,6 @@
   },
   {
 		"count":  1,
-		"name": "Mine Bullet Type",
-		"category": ["Beck", "Unique Parts"],
-		"progression": true
-  },
-  {
-		"count":  1,
 		"name": "Luxcalibur",
 		"category": ["Gunvolt", "Unique Parts"]
   },
@@ -480,12 +478,13 @@
   },
   {
 		"count":  1,
-		"name": "Air Action: Hover",
-		"category": ["Call", "Unique Parts"]
+		"name": "Air Action - Hover",
+		"category": ["Call", "Unique Parts"],
+		"progression": true
   },
   {
 		"count":  1,
-		"name": "Air Action: Mid-Air Dash",
+		"name": "Air Action - Mid-Air Dash",
 		"category": ["Call", "Unique Parts"],
 		"progression": true
   },
@@ -557,21 +556,28 @@
 		"count":  13,
 		"name": "Customization Points +300",
 		"category": [],
-		"value": {"CP": 300}
+		"value": {"cp": 300},
+		"progression": true
   },
   {
 		"count":  1,
 		"name": "Customization Points +1000",
 		"category": [],
 		"progression_skip_balancing": true,
-		"value": {"CP": 1000}
+		"value": {"cp": 1000}
   },
   {
-		"count":  1,
+		"count":  22,
 		"name": "Customization Points +50",
-		"category": [],
-		"filler": true,
-		"value": {"CP": 50}
+		"category": "Cheevosanity",
+		"value": {"cp": 50},
+		"progression": true
+  },
+  {
+		"count":  28,
+		"name": "Customization Points +10",
+		"value": {"cp": 10},
+		"filler": true
   },
   {
 		"count":  1,

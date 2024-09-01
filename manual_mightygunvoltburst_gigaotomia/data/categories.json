@@ -16,44 +16,44 @@
 	"Subspace": {},
 	"Distopia": {},
 	"Cyberspace Colosseum": {},
-	"Weapons": {},
-	"WeaponsPlus": {
+	"WeaponsMinus": {
 		"hidden": true
 	},
+	"Weapons": {},
 	"Beck": {
-		"yaml_option": ["UseBeck"]
+		"yaml_option": ["UseBeck"],
 		"hidden": true
 	},
 	"Gunvolt": {
-		"yaml_option": ["UseGunvolt"]
+		"yaml_option": ["UseGunvolt"],
 		"hidden": true
 	},
 	"Ekoro": {
-		"yaml_option": ["UseEkoro"]
+		"yaml_option": ["UseEkoro"],
 		"hidden": true
 	},
 	"Call": {
-		"yaml_option": ["UseCall"]
+		"yaml_option": ["UseCall"],
 		"hidden": true
 	},
 	"Joule": {
-		"yaml_option": ["UseJoule"]
+		"yaml_option": ["UseJoule"],
 		"hidden": true
 	},
 	"Ray": {
-		"yaml_option": ["UseRay"]
+		"yaml_option": ["UseRay"],
 		"hidden": true
 	},
 	"Copen": {
-		"yaml_option": ["UseCopen"]
+		"yaml_option": ["UseCopen"],
 		"hidden": true
 	},
 	"Kurona": {
-		"yaml_option": ["UseKurona"]
+		"yaml_option": ["UseKurona"],
 		"hidden": true
 	},
 	"Tenzou": {
-		"yaml_option": ["UseTenzou"]
+		"yaml_option": ["UseTenzou"],
 		"hidden": true
 	},
 	"Active Parts": {},
@@ -77,6 +77,9 @@
 	"Spread Weapons": {
 		"hidden": true
 	},
+  "Ranksanity": {
+    "yaml_option": ["Ranksanity"]
+  },
   "Foodsanity": {
     "yaml_option": ["fs"]
   },
@@ -85,5 +88,16 @@
   },
   "Foodsanity Grouped": {
     "yaml_option": ["fsg"]
-  }	
+  },
+  "NG": {
+	"hidden": true,
+    "yaml_option": ["!NewGamePlus"]
+  },
+  "NGPlus": {
+	"hidden": true,
+    "yaml_option": ["NewGamePlus"]
+  },
+  "BossRush": {
+    "yaml_option": ["BossRush"]
+  }
 }
