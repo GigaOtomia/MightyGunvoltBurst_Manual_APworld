@@ -20,40 +20,40 @@
 		"hidden": true
 	},
 	"Weapons": {},
-	"Beck": {
-		"yaml_option": ["UseBeck"],
+	"NotBeck": {
+		"yaml_option": ["!UseBeck"],
 		"hidden": true
 	},
-	"Gunvolt": {
-		"yaml_option": ["UseGunvolt"],
+	"NotGunvolt": {
+		"yaml_option": ["!UseGunvolt"],
 		"hidden": true
 	},
-	"Ekoro": {
-		"yaml_option": ["UseEkoro"],
+	"NotEkoro": {
+		"yaml_option": ["!UseEkoro"],
 		"hidden": true
 	},
-	"Call": {
-		"yaml_option": ["UseCall"],
+	"NotCall": {
+		"yaml_option": ["!UseCall"],
 		"hidden": true
 	},
-	"Joule": {
-		"yaml_option": ["UseJoule"],
+	"NotJoule": {
+		"yaml_option": ["!UseJoule"],
 		"hidden": true
 	},
-	"Ray": {
-		"yaml_option": ["UseRay"],
+	"NotRay": {
+		"yaml_option": ["!UseRay"],
 		"hidden": true
 	},
-	"Copen": {
-		"yaml_option": ["UseCopen"],
+	"NotCopen": {
+		"yaml_option": ["!UseCopen"],
 		"hidden": true
 	},
-	"Kurona": {
-		"yaml_option": ["UseKurona"],
+	"NotKurona": {
+		"yaml_option": ["!UseKurona"],
 		"hidden": true
 	},
-	"Tenzou": {
-		"yaml_option": ["UseTenzou"],
+	"NotTenzou": {
+		"yaml_option": ["!UseTenzou"],
 		"hidden": true
 	},
 	"Active Parts": {},
@@ -99,5 +99,9 @@
   },
   "BossRush": {
     "yaml_option": ["BossRush"]
-  }
+  },
+	"Access Codes": {},
+	"Clear Flags": {},
+	"Customization Points": {},
+	"Traps": {}
 }
